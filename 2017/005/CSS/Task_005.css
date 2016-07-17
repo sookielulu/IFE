@@ -1,0 +1,33 @@
+@charset "utf-8";
+/* CSS Document */
+.top{ width:1200px; height:50px; margin:0 auto; background-color:#333;}
+.top_img{ width:130px; height:40px; padding:5px 30px; display:inline; float:left;}
+.top_ul{ display:inline; margin-right:20px;}
+.top_ul li a{ display:inline; color:#FFF; font-size:14px; float:right; padding:18px 10px;}
+.top_ul li a:hover{ color:#CCC; text-decoration:none;}
+.body{ width:1150px;  margin:0 auto; background-color:#DBDBDB; padding:25px; padding-bottom:0;}  /* 很重要 */ 
+.body_box_left{ width:700px; float:left;}
+.body_box1{ width:700px; margin:0 auto; margin-bottom:25px; background-color:white; box-shadow:2px 2px 2px #333; padding:5px 15px;}
+.body_box1_title1{ font-size:22px; padding-top:30px;}
+.body_box1_title2{ color:#666; font-size:16px;}
+.body_box1_title3{ color:#666; font-size:12px;}
+.body_box1_p1{ text-indent:2em; line-height:20px;}
+.body_box1_p1 a{ color:blue; text-decoration:underline;}
+.body_box1_ul{ padding-left:30px; line-height:25px;}
+.body_box1_ul li{ width:100px; display:inline-block;}
+.body_box1_ol{ padding-left:30px; line-height:25px;}
+.body_box1 table{ margin:10px auto; border-collapse:collapse;} /*设置表格的边框被合并为一个单一的边框*/
+.body_box1_tr{ color:white; background-color:black;}
+.body_box_right{ width:400px; background-color:white; box-shadow:2px 2px 2px #333; float:right;}
+.body_box_right_title{ font-size:18px; padding:20px;}
+.body_right_form1{ padding:20px 48px; padding-bottom:10px;}
+.body_right_form1_1{ padding-left:168px; color:#999; font-size:12px; padding-bottom:30px;}
+.body_right_form2{ padding-left:76px; padding-bottom:20px;} 
+.body_right_form3{ padding-left:49px; padding-bottom:10px;}
+.body_right_form4{ padding-left:120px; padding-bottom:20px;}
+.body_right_form5{ padding-left:90px; padding-bottom:20px;}
+.body_right_form6{ width:380px; margin-left:10px; background:#06C; color:white; padding:5px; font-size:16px; border-radius:10px; border:0px; margin-bottom:10px;}
+.bottom{ width:1200px; height:70px; margin-left:-25px; background-color:black; margin-bottom:0; float:left;}
+.bottom_p{ text-align:center; color:white; padding:25px;}
+
+

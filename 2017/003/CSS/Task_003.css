@@ -1,0 +1,58 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{ 
+	padding:20px;
+}
+.main{ 
+	margin:0 auto; 
+	padding:20px; 
+	border:1px solid #999; 
+	background-color:#eee; 
+	overflow: auto;
+}  /*overflow: auto很重要*/
+.left{ 
+	width:158px; 
+	float:left; 
+	padding:20px; 
+	border:1px solid #999; 
+	background-color:white;
+}
+.left img{ 
+	width:80px; 
+	height:80px; 
+	float:left;
+}
+.left h2{ 
+	width:160px; 
+	text-align:center;
+	padding-top:0;
+}
+.right{ 
+	width:80px; 
+	height:380px; 
+	padding:20px; 
+	border:1px solid #999; 
+	float:right; 
+	background-color:white;
+}
+.right ul li{ 
+	width:80px; 
+	height:80px; 
+	padding-bottom:20px; 
+}
+.middle{ 
+	margin-left:220px; 
+	margin-right:142px; 
+	padding:20px; 
+	border:1px solid #999; 
+	background-color:white;
+} 
+.middle h1{ 
+	font-size:24px;
+}
+.middle p{ 
+	font-size:16px; 
+	text-indent:2em; 
+	line-height:26px;
+}

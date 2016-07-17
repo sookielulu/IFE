@@ -1,0 +1,412 @@
+@charset "utf-8";
+/* CSS Document */
+body{ 
+	background-color:#333;
+}
+.main{ 
+	width:892px;
+	height:1386px; 
+	margin:0 auto; 
+	background-color:#FFF; 
+	padding-left:45px; 
+	padding-right:43px;
+}
+.main_top{ 
+	height:61px; 
+	border-bottom:2px solid #938e8c;
+	margin-bottom:34px;
+}
+.main_top_img{ 
+	width:110px; 
+	height:61px;
+	background-color:#d45d5c; 
+	display: inline-block;
+}
+.main_top_img span{ 
+	font_size:12px; 
+	font-fimaly:黑体; 
+	color:#ffffff; 
+	float:left; 
+	margin-top:43px;
+	margin-left:7px;
+}
+.main_top_img2{ 
+	width:892px; 
+	height:2px; 
+	background-color:#938e8c; 
+	float:left;
+}
+.main_top_time{
+	font-size:12px;
+	font-family:黑体;
+	color:#d45d5c;
+	float:right;
+	margin-top:46px;	
+}
+.main_middle{ 
+	height:510px;
+	margin-bottom:73px;  
+}
+.middle_left{
+	width:641px;
+	height:301px;
+	background-image:url(../Image/task_1_6_1_01.jpg);
+	float:left;
+	margin-bottom:41px;
+}
+.middle_left_img1{
+	float:left;	
+	opacity: 0.4;
+}
+.middle_left_img2{
+	float:right;
+	opacity: 0.4;	
+}
+.middle_right{
+	width:203px;
+	height:300px;	
+	padding-top:1px;
+	float:right;
+}
+.middle_right_line1{
+	height:2px;
+	background-color:#cc8091;	
+}
+.middle_right_text1{
+	font-size:24px;
+	font-family:微软雅黑;
+	font-variant: small-caps;         /*表示将小写变为大写*/
+	text-transform: capitalize;       /*表示首字母大写*/
+	padding-top:13px;
+}
+.middle_right_line2{
+	width:69px;
+	height:2px;
+	line-height:40px;
+	background-color:#000;	
+}
+.middle_right_text2{
+	font-size:24px;
+	font-family:微软雅黑;
+	font-variant:small-caps;
+	text-transform:capitalize;
+}
+.middle_right_line3{
+	width:134px;
+	height:2px;
+	line-height:40px;
+	background-color:#000;	
+	margin-bottom:5px;
+}
+.middle_right_text3{
+	font-size:12px;
+	font-family:楷体;
+	color:#676767;
+	line-height:10px;	
+	/*margin-bottom:38px;*/
+}
+.middle_right_text4{
+	font-size:116px;
+	color:#75b86b;
+	font-family:"微软雅黑";
+	padding-top:38px;
+	margin-left:-18px;
+}
+.middle_right_bottom_text1{
+	font-size:55px;
+	font-family:"微软雅黑";
+	color:#cc8091;
+	padding-top:2px;
+	padding-left:5px;
+	float:left;
+}
+.middle_right_bottom_text2{
+	display:inline-block;
+	width:100px;
+	height:43px;
+	padding-left:9px;
+}
+.middle_right_bottom_text2_1{
+	font-size:21px;
+	font-family:"微软雅黑";
+	color:#cc8091;
+	padding-top:21px;
+}
+.middle_right_bottom_text2_2{
+	font-size:12px;
+	font-family:"微软雅黑";
+	color:#c6c5c5;
+}
+.middle_bottom{
+	width:620px;
+	/*height:168px;*/
+}
+.middle_bottom_box1{
+	width:228px;
+	float:left;
+	margin-right:27px;
+}
+.middle_bottom_title1{
+	font-size:16px;
+	font-family:微软雅黑;
+	color:#418c59;
+	text-decoration:underline;
+}
+.middle_bottom_text1{
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#231815;
+	line-height:16px;
+	opacity:0.7;
+	padding-top:11px;
+}
+.middle_bottom_box2{
+	width:204px;
+	float:left;
+}
+.middle_bottom_box3{
+	width:132px;
+	float:right;
+}
+.middle_bottom_box3_text1{
+	font-size:12px;
+	float:left;
+	line-height:20px;
+	opacity:0.7;
+}
+.middle_bottom_box3_text2{
+	font-size:12px;
+	display:inline;
+	line-height:20px;
+	color:#cd4a48;
+	opacity:0.7;
+}
+.main_bottom{
+	height:646px;
+	border-bottom:1px solid #938e8c;
+}
+.bottom_left{
+	width:415px;
+	margin-right:19px;
+	float:left;
+	/*position:relative;*/
+}
+.bottom_left_top{
+	height:138px;
+	border-bottom:2px solid #10456b;
+	margin-bottom:25px;
+	padding-top:15px;
+}
+.bottom_left_top_text1{
+	font-size:72px;
+	font-family:黑体;
+	color:#f5e327;
+	line-height:29px;
+}
+.bottom_left_top p span{
+	font-size:42px;
+	color:#11456b;
+}
+.bottom_left_top_text2{
+	font-size:33px;
+	color:#11456b;
+	margin-top:15px;
+}
+.bottom_left_bottom{
+	height:428px;
+	position:relative;
+	padding:0 3px 0 1px;
+}
+.bottom_left_bottom img{
+/*	width:195px;
+	height:312px;*/
+	position:absolute;       /*在父级元素中设置position:relative;再设置这里的元素：position:absolute;left:216px;top:81px;*/
+	right:0;
+	top:81px;
+}
+.bottom_left_bottom p{
+	font-size:12px;            /*以后若想实现环绕式的图文混排，需要用到JS*/
+	color:#767777;
+	line-height:16px;
+}
+.bottom_left_bottom p:first-letter{
+	font-size:70px;
+	font-family:微软雅黑;
+	color:#f5e327;
+	float:left;
+}
+.bottom_right{
+	width:458px;
+	height:604px;
+	display:inline-block;
+}
+.bottom_right_box1{
+	height:257px;
+	background-image:url(../Image/task_1_6_1_04.jpg);
+	margin-bottom:30px;
+}
+.bottom_right_box1 p{
+	font-size:26px;
+	font-family:微软雅黑;
+	color:white;
+	padding-top:214px;
+	padding-left:53px;
+}
+.bottom_right_box1_text{
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#72b16a;
+	word-spacing:140%;
+}
+.bottom_right_box2{
+	width:457px; /*也可不设置宽度，但这里切图只切了457，若不设置则为父级的458，会导致右边有一像素的边多出来*/
+	height:317px;
+	background-image:url(../Image/task_1_6_1_06.jpg);
+	position:relative;
+}
+.bottom_right_box2 ul{
+	height:158px;
+	padding:32px 20px 30px 31px;
+	font-size:16px;
+	color:#5a5b5b;
+	line-height:36px;
+	word-spacing:150%;
+}
+.bottom_right_box2_text1{
+	font-size:12px;
+}
+.bottom_right_box2_0{
+	width:55px;
+	font-size:110px;
+	color:white;
+	float:left;
+	position:absolute;
+	left:11px;
+	bottom:24px;
+}
+.bottom_right_box2_num{
+	font-size:16px;
+	color:white;
+	line-height:22px;
+	position:absolute;
+	left:89px;
+	bottom:72px;
+}
+.bottom_right_box2_letter{
+	font-size:12px;
+	color:white;
+	line-height:14px;
+	position:absolute;
+	left:89px;
+	bottom:36px;
+}
+.bottom_right_box2_right{
+	width: 180px;
+    height: 160px;
+	font-size:14px;
+	line-height:18px;
+	color:#5a5b5b;
+	text-indent: 3em;
+	position:absolute;
+	right:0;
+	top:180px;
+}
+.bottom_right_box2_sig1{
+	font-size:72px;
+	font-family:黑体;
+	color:#d45d5c;
+	position:absolute;
+	right:147px;
+	bottom:125px;
+}
+.bottom_right_box2_sig2{
+	font-size:72px;
+	font-family:黑体;
+	color:#d45d5c;
+	position:absolute;
+	right:-15px;
+	bottom:20px;
+}
+.main_foot{ 
+	font_size:12px; 
+	font-fimaly:黑体; 
+	color:#d45d5c; 
+	float:right; 
+	padding-top:10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
