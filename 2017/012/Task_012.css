@@ -1,0 +1,75 @@
+span{
+	font-size: 24px;
+	color: red;
+}
+table{
+	width: 240px;
+	margin: 20px auto;
+	text-align: left;
+	font-size: 16px;
+}
+table tr:nth-child(odd){
+	background-color: #ccc;
+}
+table tr th{
+	background-color: #000;
+	color: #fff;
+}
+table tr:nth-child(-n+4){
+	color: red;
+}
+
+input{
+	width: 100px;
+	border: 2px solid #ccc;
+	margin: 20px auto;
+}
+input:focus{
+	width: 200px;
+	border: 2px solid blue;
+}
+
+.banner{
+	overflow: hidden;
+}
+
+div{
+	width: 300px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+}
+div ul{	
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
+div ul li{
+	width: 40px;
+	height: 40px;
+	display: inline-block;
+	line-height: 40px;
+	text-align: center;
+	color: #fff;
+}
+#banner1{
+	background-color: red;
+	overflow: hidden;
+}
+#banner1 ul li{
+	background-color: blue;
+}
+#banner2{
+	background-color: yellow;
+	overflow: hidden;
+}
+#banner2 ul li{
+	background-color: red;
+}
+#banner3{
+	background-color: green;
+	overflow: hidden;
+}
+#banner3 ul li{
+	background-color: orange;
+}
